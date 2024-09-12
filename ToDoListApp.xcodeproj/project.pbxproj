@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1C88BA2C939E1B00D124CD /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C88B92C939E1B00D124CD /* TLButton.swift */; };
 		FA8416782C929FBC0060C3CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA8416772C929FBC0060C3CF /* FirebaseAuth */; };
 		FA84167A2C929FBC0060C3CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA8416792C929FBC0060C3CF /* FirebaseFirestore */; };
 		FA84167C2C929FBC0060C3CF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA84167B2C929FBC0060C3CF /* FirebaseFirestoreSwift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1C88B92C939E1B00D124CD /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		FACD7E562C92A57F00630DB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FACD7E582C92A86600630DB4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FACD7E5A2C92A88400630DB4 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				FACD7E602C92A8B700630DB4 /* RegisterView.swift */,
 				FACD7E622C92A8F400630DB4 /* ToDoListItemView.swift */,
 				FACD7E762C92B2E400630DB4 /* HeaderView.swift */,
+				FA1C88B92C939E1B00D124CD /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				FACD7E692C92A98E00630DB4 /* MainViewViewModel.swift in Sources */,
 				FACD7E5B2C92A88400630DB4 /* ToDoListView.swift in Sources */,
 				FACD7E612C92A8B700630DB4 /* RegisterView.swift in Sources */,
+				FA1C88BA2C939E1B00D124CD /* TLButton.swift in Sources */,
 				FACD7E6B2C92A99700630DB4 /* ProfileViewViewModel.swift in Sources */,
 				FACD7E592C92A86600630DB4 /* ProfileView.swift in Sources */,
 				FACD7E652C92A94B00630DB4 /* User.swift in Sources */,
