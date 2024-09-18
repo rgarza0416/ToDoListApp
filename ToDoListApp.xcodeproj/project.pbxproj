@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA1C88BA2C939E1B00D124CD /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C88B92C939E1B00D124CD /* TLButton.swift */; };
 		FA1C88BC2C93FB1300D124CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C88BB2C93FB1300D124CD /* Extensions.swift */; };
+		FA75FDA72C9B351E009E4568 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA75FDA62C9B351D009E4568 /* Launch Screen.storyboard */; };
 		FA8416782C929FBC0060C3CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA8416772C929FBC0060C3CF /* FirebaseAuth */; };
 		FA84167A2C929FBC0060C3CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA8416792C929FBC0060C3CF /* FirebaseFirestore */; };
 		FA84167C2C929FBC0060C3CF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA84167B2C929FBC0060C3CF /* FirebaseFirestoreSwift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		FA1C88B92C939E1B00D124CD /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		FA1C88BB2C93FB1300D124CD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA75FDA62C9B351D009E4568 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FACD7E562C92A57F00630DB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FACD7E582C92A86600630DB4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FACD7E5A2C92A88400630DB4 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				FACD7E562C92A57F00630DB4 /* GoogleService-Info.plist */,
 				FADE4C6C2C8B957100D8EC74 /* ToDoListAppApp.swift */,
 				FA1C88BB2C93FB1300D124CD /* Extensions.swift */,
+				FA75FDA62C9B351D009E4568 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				FADE4C742C8B957200D8EC74 /* Preview Assets.xcassets in Resources */,
 				FADE4C712C8B957200D8EC74 /* Assets.xcassets in Resources */,
+				FA75FDA72C9B351E009E4568 /* Launch Screen.storyboard in Resources */,
 				FACD7E572C92A57F00630DB4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -430,6 +435,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
